@@ -4,6 +4,14 @@ Team membership:  Jason Chn (Captain) & Renz Dionglay (Mate) & Andrei Hristea (M
 Team conventions: Allman notation, markdown for changelog, must edit changelog after every change
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
+## Version 1.0.2 ##
+
+### Added 02-03-17 ###
+-  Remapped dunno
+-  Fixed anonymous's quote route
+-  Added data folder in root
+-  Added method in config/routes.php to display picture in data
+
 ## Version 1.0.1 ##
 
 ### Added 02-03-17 ###
