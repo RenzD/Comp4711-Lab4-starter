@@ -4,10 +4,16 @@ Team membership:  Jason Chn (Captain) & Renz Dionglay (Mate) & Andrei Hristea (M
 Team conventions: Allman notation, markdown for changelog, must edit changelog after every change
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
+## Version 1.0.1 ##
+
+### Added 02-03-17 ###
+-  Remapped lock/em/up 
+-  Fixed Elaine Boosler's quote
+-  Added method shucks in Welcome
 
 ## Version 1.0 ##
 
-### Added 01-26-17 ###
+### Added 02-02-17 ###
 -  Set up repository and added changelog
 
 
