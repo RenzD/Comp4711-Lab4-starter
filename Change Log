@@ -7,6 +7,13 @@ Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdo
 ## Version 1.0.2 ##
 
 ### Added 02-03-17 ###
+-  Added Bingo.php in controllers with method index()
+-  Remapped /wise/bingo link using regular expression
+-  Fixed Socrate's quote route
+
+## Version 1.0.2 ##
+
+### Added 02-03-17 ###
 -  Remapped dunno
 -  Fixed anonymous's quote route
 -  Added data folder in root
