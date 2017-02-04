@@ -64,3 +64,6 @@ $route['dunno'] = function(){
     readfile($source); 
     die();
 };
+
+//issue #7 (bingo) using regular expression of any 4 letters followed by /bingo will route to the 5th quote
+$route['([a-zA-Z]{4})/bingo'] = 'bingo';
