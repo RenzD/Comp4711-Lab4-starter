@@ -6,6 +6,10 @@ Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdo
 
 ## Version 1.0.2 ##
 
+### Added 02-04-17 ###
+- Added First.php controller (Issue #1)
+- added routing rule /first/zzz (Issue #3)
+
 ### Added 02-03-17 ###
 -  Added Bingo.php in controllers with method index()
 -  Remapped /wise/bingo link using regular expression
