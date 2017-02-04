@@ -14,21 +14,20 @@ class First extends Application {
   public function index(){
 
     $this->load->model('quotes');
-    $this->data['pagebody'] = 'homepage';
+    $this->data['pagebody'] = 'justone';
 
-    $authors[] = $this->quotes->get(1);
-    $this->data['authors'] = $authors;
 
+    $this->data = array_merge($this->data, $this->quotes->get(1));
+    
     $this->render();
   }
 
   public function zzz(){
 
     $this->load->model('quotes');
-    $this->data['pagebody'] = 'homepage';
+    $this->data['pagebody'] = 'justone';
 
-    $authors[] = $this->quotes->get(1);
-    $this->data['authors'] = $authors;
+    $this->data = array_merge($this->data, $this->quotes->get(1));
 
     $this->render();
 
