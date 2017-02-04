@@ -1,10 +1,10 @@
 #Change Log
 
-Team membership:  Jason Chn (Captain) & Renz Dionglay (Mate) & Andrei Hristea (Mate)
+Team membership:  Jason Chan (Captain) & Renz Dionglay (Mate) & Andrei Hristea (Mate)
 Team conventions: Allman notation, markdown for changelog, must edit changelog after every change
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
-## Version 1.0.2 ##
+## Version 1.0.3 ##
 
 ### Added 02-03-17 ###
 -  Added Bingo.php in controllers with method index()
