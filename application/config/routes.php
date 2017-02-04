@@ -53,6 +53,9 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+// route for issue 3 /sleep
+$route['sleep'] = "first/zzz";
+
 //route for issue 4 /lock/em/up - Elaine Boosler
 $route['lock/(:any)/(:any)'] = 'welcome/shucks';
 
