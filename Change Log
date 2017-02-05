@@ -4,6 +4,11 @@ Team membership:  Jason Chan (Captain) & Renz Dionglay (Mate) & Andrei Hristea (
 Team conventions: Allman notation, markdown for changelog, must edit changelog after every change
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
+## Version 1.0.5 ##
+
+### Added 02-04-17 ###
+- Completed issues #1 through #10
+
 ## Version 1.0.4 ##
 
 ### Added 02-04-17 ###
@@ -17,6 +22,8 @@ Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdo
 - Added First.php controller (Issue #1)
 - added routing rule /first/zzz (Issue #3)
 - Changed the default controller to hogwards (Issue #9) 
+- Added gimme function & routed (issue #5)
+- Show a random quote if a bogus one is requested (issue #10)
 
 ### Added 02-03-17 ###
 -  Added Bingo.php in controllers with method index()
