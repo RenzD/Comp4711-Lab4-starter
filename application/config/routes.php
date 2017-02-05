@@ -67,3 +67,6 @@ $route['dunno'] = function(){
 
 //issue #7 (bingo) using regular expression of any 4 letters followed by /bingo will route to the 5th quote
 $route['([a-zA-Z]{4})/bingo'] = 'bingo';
+
+//issue #8 Remapped using regular expression (comp + digits / *)
+$route['comp4711/([a-z]+)'] = 'wise/bingo';
