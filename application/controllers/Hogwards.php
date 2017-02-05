@@ -43,5 +43,18 @@ class Hogwards extends Application
             $this->data = array_merge($this->data, $record);
             
             $this->render();
-        }
+        } 
+        
+        /*
+         * Issue #10
+         */
+        public function random() {
+        $this->data['pagebody'] = 'justone';
+        $source = $this->quotes->all();
+        $authors = array();
+        $record = $source[rand(0, 6)];
+        
+        $this->data = array_merge($this->data, $record);
+        $this->render();
+    }
 }
