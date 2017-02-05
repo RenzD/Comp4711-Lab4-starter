@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'hogwards';    // Issue #9 change from welcome
 $route['404_override'] = '';
+$route['show/(:num)'] = 'first/gimme/$1';
 $route['translate_uri_dashes'] = FALSE;
 
 // route for issue 3 /sleep
