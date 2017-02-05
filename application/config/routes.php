@@ -49,6 +49,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
+$route['default_controller'] = 'hogwards';    // Issue #9 change from welcome
+$route['404_override'] = 'hogwards/random';
+$route['show/(:num)'] = 'first/gimme/$1';
 $route['translate_uri_dashes'] = FALSE;
+
+// route for issue 3 /sleep
+$route['sleep'] = "first/zzz";
+
+//route for issue 4 /lock/em/up - Elaine Boosler
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
+
+//route for issue 6 /dunnno
+$route['dunno'] = function(){
+    $source = '../data/surprise.jpg';
+    header("Content-type: image/jpeg"); 
+    header('Content-Disposition: inline');
+    readfile($source); 
+    die();
+};
+
+//issue #7 (bingo) using regular expression of any 4 letters followed by /bingo will route to the 5th quote
+$route['([a-zA-Z]{4})/bingo'] = 'bingo';
+
+//issue #8 Remapped using regular expression (comp + digits / *)
+$route['comp4711/([a-z]+)'] = 'wise/bingo';

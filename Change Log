@@ -1,0 +1,53 @@
+#Change Log
+
+Team membership:  Jason Chan (Captain) & Renz Dionglay (Mate) & Andrei Hristea (Mate)
+Team conventions: Allman notation, markdown for changelog, must edit changelog after every change
+Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+
+## Version 1.0.5 ##
+
+### Added 02-04-17 ###
+- Completed issues #1 through #10
+
+## Version 1.0.4 ##
+
+### Added 02-04-17 ###
+-  Added Wise.php in controllers with method bingo()
+-  Remapped /comp4711/wisdom link using regular expression
+-  Fixed Issac Asimov's quote route
+
+## Version 1.0.3 ##
+
+### Added 02-04-17 ###
+- Added First.php controller (Issue #1)
+- added routing rule /first/zzz (Issue #3)
+- Changed the default controller to hogwards (Issue #9) 
+- Added gimme function & routed (issue #5)
+- Show a random quote if a bogus one is requested (issue #10)
+
+### Added 02-03-17 ###
+-  Added Bingo.php in controllers with method index()
+-  Remapped /wise/bingo link using regular expression
+-  Fixed Socrate's quote route
+
+## Version 1.0.2 ##
+
+### Added 02-03-17 ###
+-  Remapped dunno
+-  Fixed anonymous's quote route
+-  Added data folder in root
+-  Added method in config/routes.php to display picture in data
+
+## Version 1.0.1 ##
+
+### Added 02-03-17 ###
+-  Remapped lock/em/up 
+-  Fixed Elaine Boosler's quote
+-  Added method shucks in Welcome
+
+## Version 1.0 ##
+
+### Added 02-02-17 ###
+-  Set up repository and added changelog
+
+
