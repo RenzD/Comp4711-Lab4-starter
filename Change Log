@@ -4,6 +4,11 @@ Team membership:  Jason Chan (Captain) & Renz Dionglay (Mate) & Andrei Hristea (
 Team conventions: Allman notation, markdown for changelog, must edit changelog after every change
 Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 
+## Version 1.0.5 ##
+
+### Added 02-04-17 ###
+- Completed issues #1 through #10
+
 ## Version 1.0.4 ##
 
 ### Added 02-04-17 ###
